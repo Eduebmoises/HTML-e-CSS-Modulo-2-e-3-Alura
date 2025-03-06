@@ -12,13 +12,14 @@ header {
 
 }
 
-img{
+.imagen{
 
     width: 488px;
     height: 550px;
     top: 235px;
     left: 1030px;
     padding: 5px;
+    border: 20px double yellow;
     
 ;
 
@@ -57,9 +58,18 @@ body
     font-family: 'Krona One', sans-serif;
 }
 .apresentacao_conteudo_paragrafo{
-    font-size: 24px;;
+    font-size: 24px;
     font-family: 'Josefin Sans', serif;
     color:ivory;
+}
+
+.apresentação_links_subtitulo{
+
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Krona one', sans-serif;
+    color:ivory;
+
 }
 .apresentacao_links{
     display: flex;
@@ -71,6 +81,7 @@ body
 
 }
 .apresentacao_links_botao{
+    border: 10px outset yellow;
     background-color:cornflowerblue;
     width: 240px;
     text-align: center;
