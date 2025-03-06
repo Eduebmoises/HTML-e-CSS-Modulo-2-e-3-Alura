@@ -82,6 +82,9 @@ body
 
 }
 .apresentacao_links_botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 5px outset yellow;
     /* background-color:cornflowerblue; */
     width: 378px;
