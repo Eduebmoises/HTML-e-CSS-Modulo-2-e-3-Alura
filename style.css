@@ -32,7 +32,7 @@ header {
 }
 body
 {
-     height: 100vh;
+     /* height: 100vh; */
      box-sizing: border-box;
      background-color: black;
    
@@ -41,7 +41,8 @@ body
 
 
 .apresentacao{
-    margin: 10%;
+    /* margin: 10%; */
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,8 +95,8 @@ body
     padding: 21.5px 0px;
     text-decoration:none;
 }
-.apresentacao_links_botao:hover{
-
+.apresentacao_links_botao:hover{  
+    cursor: pointer;
     background-color: #272727;
 }
 
@@ -104,8 +105,7 @@ body
     width: 35px;
 }
 
-p {color: #E4B1F0;
-}
+
 h1
 { color: #7E60BF
 
@@ -115,12 +115,13 @@ a{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-footer
-{
-    color:#FFE1FF;
+.rodape{
+  color: #272727;
+    background-color: #22D4FD;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: yellow;
-    font-size: 26px;
+    font-family: 'Montserrat',sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
 
 }
