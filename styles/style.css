@@ -33,7 +33,7 @@
 }
 
 .cabeçalho_link{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundária);
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -56,7 +56,6 @@
 
 .Título_destaque{
         color: var(--cor-terciaria);
-       
      
 }
 body
@@ -85,20 +84,20 @@ body
 }
 
 .apresentacao_conteudo_titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-principal);
 }
 .apresentacao_conteudo_paragrafo{
     display: flex;
     padding: 2%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundária);
     color: var(--cor-secundaria);
 }
 
 .apresentação_links_subtitulo{
 
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--fonte-principal);
     color:var(--cor-secundaria);
@@ -122,7 +121,7 @@ body
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0px;
     text-decoration:none;
 }
@@ -151,7 +150,7 @@ a{
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundária) ;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     padding: 24px;
 
