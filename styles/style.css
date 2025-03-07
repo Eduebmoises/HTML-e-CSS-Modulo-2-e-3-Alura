@@ -43,11 +43,14 @@
 
 .imagen{
   
-    width: 50%;
-   
-    
-    
-;
+    display: flex;
+    width: 488px;
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    padding: 2%;
+
+
 
 }
 
