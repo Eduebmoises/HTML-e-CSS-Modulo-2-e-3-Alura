@@ -76,6 +76,8 @@ body
     font-family: 'Krona One', sans-serif;
 }
 .apresentacao_conteudo_paragrafo{
+    display: flex;
+    padding: 2%;
     font-size: 24px;
     font-family: 'Josefin Sans', serif;
     color:ivory;
