@@ -44,12 +44,13 @@
 .imagen{
   
     display: flex;
-    width: 488px;
-    height: 550px;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
     top: 235px;
-    left: 1030px;
-    padding: 2%;
-
+ 
+    padding: 2% 0 0 0;
+    
 
 
 }
@@ -153,7 +154,6 @@ a{
     font-family: var(--fonte-secundária) ;
     font-size: 1.5rem;
     font-weight: 400;
-    padding: 24px;
 
 }
 @media( max-width: 1200px){
@@ -171,4 +171,9 @@ a{
 .cabeçalho_menu{
     justify-content: center;
 }
+
+.imagen{
+    flex-direction: column-reverse;
+}
+
 }
