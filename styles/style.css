@@ -55,6 +55,17 @@
 
 }
 
+.Imagen_certificados{
+  
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    top: 235px;
+ 
+    padding: 2% 0 0 0;
+    }
+
 .Título_destaque{
         color: var(--cor-terciaria);
      
